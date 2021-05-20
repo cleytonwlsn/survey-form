@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cleyton Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 id="title">Cleyton Survey Form</h1>
+    <p id="description">A survey form made by Cleyton</p>
+
+    <div id="form-body">
+        <form id="survey-form">
+            <label id ="name-label" for="name"><p>Name</p></label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name"> <br>
+            <label id ="email-label" for="email"><p>E-mail</p></label>
+            <input type="email" name="email" id="email" placeholder="Enter your E-mail"> <br>
+            <label id ="number-label" for="number"><p>Age</p></label>
+            <input type="number" name="number" id="number" placeholder="Enter your Age"> <br>
+            
+            <label for="dropdown"><p>What country are you from?</p></label>
+            <select name="dropdown" id="dropdown">
+                <option value="default">Brazil</option>
+                <option value="EUA">EUA</option>
+                <option value="Others">Others</option>
+            </select>
+
+            <label for="radio"><p>Do you like Brazil?</p></label> 
+            <input type="radio" name="yes" value="yes"> Yes <br>
+            <input type="radio" name="no" value="no"> No
+
+            <label for="checkbox"><p>How many times have you traveled to Brazil?</p></label>
+            <input type="checkbox" name="none" value="0"> None <br>
+            <input type="checkbox" name="one" value="1"> 1 <br>
+            <input type="checkbox" name="two" value="2"> 2 <br>
+            <input type="checkbox" name="3-or-more" value="3"> 3 or more 
+            
+            <label for="comment"><p>Any comments or suggestions?</p></label>
+            <textarea id="comment" cols="30" rows="10">Enter your comment here...</textarea> <br>
+
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

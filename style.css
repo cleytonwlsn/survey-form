@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: arial;
+}
+
+#form-body {
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+#name {
+    width: 550px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#email {
+    width: 550px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#number {
+    width: 550px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#dropdown {
+    width: 550px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#comment {
+    width: 500px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#submit {
+    width: 600px;
+    padding: 15px;
+    color: white;
+    background-color: #3CB371;
+}
